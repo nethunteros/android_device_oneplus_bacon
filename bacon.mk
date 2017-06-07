@@ -241,6 +241,10 @@ PRODUCT_PACKAGES += \
     wpa_supplicant_overlay.conf \
     p2p_supplicant_overlay.conf
 
+# EFIdroid Manager
+PRODUCT_PACKAGES += \
+    efidroidmanager
+
 # Call the proprietary setup
 $(call inherit-product, vendor/oneplus/bacon/bacon-vendor.mk)
 
